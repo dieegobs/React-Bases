@@ -1,10 +1,11 @@
 import React from 'react'
 
-export const FirstApp = () => {
+export const FirstApp = ( {title} ) => {
+
   return (
     <>
-    <div>FirstApp</div>
-    <p>Sou um título</p>
+      <h1>{title}</h1>
+      <p>Sou um título</p>
     </>
   )
-}
+} 
