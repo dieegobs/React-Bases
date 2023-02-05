@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
        
         
-        <FirstApp title={"sou um título"} />
+        <FirstApp title="sou um título" subTitle="123"/>
     </React.StrictMode>
 )
