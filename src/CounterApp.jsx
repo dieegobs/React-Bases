@@ -1,10 +1,23 @@
 import PropTypes from 'prop-types';
 
 export const CounterApp = ({value}) => {
+
+    const handleAdd = () => {
+        console.log('olá mundo');
+    }
+
+
+
+
+
   return (
     <>
     <div>CounterApp</div>
-    <div>{value}</div>
+    <h2>{value}</h2>
+    <button onClick={handleAdd}>
+        +1
+    </button>
+
     </>
   )
 }
