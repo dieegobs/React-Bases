@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 export const CounterApp = ({value}) => {
 
-    const handleAdd = () => {
-        console.log('olá mundo');
+    const handleAdd = (event) => {
+        console.log(event);
     }
 
 
