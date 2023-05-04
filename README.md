@@ -1,4 +1,4 @@
-## Estudos sobre ReactJSs
+## Estudos sobre ReactJS
 
 
 ```bash
